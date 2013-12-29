@@ -4,7 +4,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/Structure.css"   />
         
-        <script src="jquery.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
         <title>
             Sam Boles
         </title>
