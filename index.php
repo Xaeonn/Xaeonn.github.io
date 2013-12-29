@@ -6,7 +6,7 @@
         
         <script src="jquery.js"></script>
         <title>
-            Boghall Surgery
+            Sam Boles
         </title>
         
     </head>
