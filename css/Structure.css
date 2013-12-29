@@ -1,0 +1,115 @@
+body
+{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+}
+body > *
+{
+    text-align: left;
+}
+form
+{
+    display: inline-block;
+    text-align: left;
+}
+li
+{
+    display: inline-block;
+    margin: 5%;
+    margin-top: 1%;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.head
+{
+    padding-top: 1%;
+    font-size: 2em;
+    width: 100%;
+    right: auto;
+    left: auto;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-bottom:  0px;
+    border-bottom:  solid 1px;
+    font-family: sans-serif;
+}
+
+.logo
+{
+    position: relative;
+}
+.menu
+{
+    width: 100%;
+    right: auto;
+    text-align: center;
+}
+
+.men
+{
+    list-style-type: none;
+    display: inline;
+}
+.window
+{
+    width: 100%;
+    right: auto;
+    text-align: center;
+}
+.home
+{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    border: solid 1px;
+}
+.left
+{
+    width: 50%;
+    left: 10%; 
+}
+.right
+{
+   width: 50%;
+   display: inline-block;
+   height: 100%;
+}
+.SearchResults
+{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+.SearchResults td
+{
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    border-collapse: collapse;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding: 2%;
+}
+.SearchResults th
+{
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+
+.SearchResults tr:nth-child(even) {
+  background: #eee;
+}
+
+
+
+#next
+{
+    font-size: 1.1em;
+}
