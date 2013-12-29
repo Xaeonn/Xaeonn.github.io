@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="css/Structure.css"   />
         
         <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<<<<<<< HEAD
         <script
                 $(document).ready(firstLoad());
                 function firstLoad()
@@ -13,6 +14,8 @@
                 }
         </script>
         
+=======
+>>>>>>> 1bbe7031d9ec8e757f9fe615d4a02ec7f795adb3
         <title>
             Sam Boles
         </title>
