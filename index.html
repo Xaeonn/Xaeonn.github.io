@@ -1,53 +1,136 @@
 <!DOCTYPE html>
-    
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/Structure.css"   />
-        
-        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script>
-                //$(document).ready(firstLoad());
-                window.onload(loadHome());
-                function firstLoad()
-                {
-                    alert("loaded");
-                    loadHome();
-                }
-        </script>
-        
-        <title>
-            Sam Boles
-        </title>
-        
-    </head>
-    <body>
-        
-        <script>
-            function loadHome()
-            {
-                $(".window").load("Home.php");
-            }
-            function loadContact()
-            {
-                $(".window").load("Contact.php");
-            }
-        </script>
-        <div class="head">
-            Sam Boles
-        </div>
-        
-        <div class="menu">
-            <ul class="men">
-                <li onclick="loadHome()">Home</li>
-                <li onclick="loadContact()">Contact</li>
-                <li onclick="loadAbout()">About</li>
-            </ul>
-        </div>
-        
-        <div class="window">
-        </div>
-        
-        <img class="logo" src="img/icon.jpg"/>
-        
-    </body>
+  <head>
+    <title>Sam Boles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	
+	<!-- Other CSS -->
+	<link href="css/structure.css" rel="stylesheet">
+  </head>
+  <body>
+    
+	<div id="wrap">
+		<div class="page-header">
+			<h1 class="text-center">Sam Boles</h1>
+		</div>
+		<div id="push"></div>
+	</div>
+	
+	<nav class="navbar navbar-default" role="navigation" style="width: 80%; left: 10%; right: 10%">
+	  <!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+	    <a class="navbar-brand" href="#">Sam Boles</a>
+	  </div>
+	  <div class="collapse navbar-collapse" id="bs	-example-navbar-collapse-1">
+	    <ul class="nav navbar-nav">
+	      <li><a href="#"> Home </a></li>
+	      <!--<li>
+		<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<b class="caret"></b></a>
+		<ul class="dropdown-menu">
+		  <li><a href="#">Services</a></li>
+		  <li><a href="#">History</a></li>
+		</ul>
+	      </li> -->
+	    </ul>
+	  </div>
+	
+	</nav>
+	
+	<div class="container">
+	  <br>
+	  <div class="col-sm-6 text-center">
+	    <img src="img/sam.jpg" alt="Sam Boles" class="img-circle">
+	    <br><br>
+	    <div class="panel panel-default">
+	      <div class="panel-head">
+		<h3>Sam Boles</h3>
+	      </div>
+	      <div class="panel-body text-left">
+		<div class="row">
+		  <div class="col-sm-3">
+		    <strong>Email</strong>
+		  </div>
+		  <div class="col-sm-3">
+		    samiboles@gmail.com
+		  </div>
+		</div>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <strong>Twitter</strong>
+		  </div>
+		  <div class="col-sm-3">
+		    <a href="http://www.twitter.com/sammyboles">sammyboles</a>
+		  </div>
+		</div>
+	      </div>
+		<br>		
+	    </div>
+	  </div>
+	  <div class="col-sm-6">
+	    <h4 class="text-center">Skills</h4>
+	    <div class="panel panel-default">
+	      <div class="panel-body">
+		<h4>
+		  Languages 
+		</h4>
+		<ul>
+		  <li>
+		    C
+		  </li>
+		  <li>
+		    Python
+		  </li>
+		  <li>
+		    C#
+		  </li>
+		  <li>
+		    jQuery
+		  </li>
+		  <li>
+		    Bash
+		  </li>
+		  <li>
+		    PHP
+		  </li>
+		</ul>
+		
+		<h4>
+		  Tools
+		</h4>
+		<ul>
+		  <li>
+		    Unity
+		  </li>
+		  <li>
+		    MySQL
+		  </li>
+		  <li>
+		    Gimp
+		  </li>
+		</ul>
+		
+		<h4>
+		  Achievements 
+		</h4>
+		<ul>
+		  <li>
+		    All-Ireland Programming Olympiad 2011 (Gold)
+		  </li>
+		  <li>
+		    All-Ireland Programming Olypiad 2010 (Bronze)
+		  </li>
+		  <li>
+		    Emutex Software Innovator Of The Year Scholarship (2nd Place)
+		  </li>
+		</ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
 </html>
