@@ -1,0 +1,11 @@
+{
+  "title":"Sam Boles",
+  "links":[
+  {"url":"https://github.com/Xaeonn/","iconClass":"fa fa-github"},
+  {"url":"https://linkedin.com/in/sammyboles","iconClass":"fa fa-linkedin-square"},
+  {"url":"http://twitter.com/sammyboles","iconClass":"fa fa-twitter"},
+  {"url":"https://instagram.com/sleepy_sibilance","iconClass":"fa fa-instagram"},
+  {"url":"http://sam.boles.eu/resume","iconClass":"fa fa-graduation-cap"},
+  {"url":"https://angel.co/sammyboles","iconClass":"fa fa-angellist"}
+]
+}

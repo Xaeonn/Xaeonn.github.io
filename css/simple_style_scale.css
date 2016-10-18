@@ -1,0 +1,38 @@
+#page{
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (max-width: 600px) {
+  #name {
+    padding-left: 10%;
+    padding-top: 30%;
+    color: #FFF;
+    font-size: 7vh;
+    font-family: sans-serif;
+  }
+}
+@media (min-width: 600px) {
+  #name{
+    padding-left: 30%;
+    padding-top: 20%;
+    color: #FFF;
+    font-size: 3em;
+    font-family: sans-serif;
+  }
+}
+
+a{
+  color: #BBB;
+  font-style: normal;
+}
+a:hover{
+  color: #FFF;
+  font-style: normal;
+  text-decoration: none;
+}

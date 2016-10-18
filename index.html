@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>
+    Sam Boles
+    </title>
+    <!-- jquery -->
+    <script type="text/javascript" src="http://templates.boles.eu/js/jquery.js"></script>
+    <!-- bootstrap -->
+    <link href="http://templates.boles.eu/css/bootstrap.min.css" rel="stylesheet">
+    <!-- basic style sheet -->
+    <link href="css/simple_style_scale.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://use.fontawesome.com/b638fd333d.js"></script>
+    <!-- react -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.2/react-dom.js"></script>
+    <!-- react components -->
+    <script type="text/javascript" src="react/page.js"></script>
+  </head>
+  <body>
+    <div id="container">
+    </div>
+  </body>
+  <script type="text/javascript">
+    $.getJSON( "http://sam.boles.eu/links.json", function( json ) {
+      renderPage(json.title, json.links);
+    });
+  </script>
+</html>
